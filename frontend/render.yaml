@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: triagr-frontend
+    runtime: node
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NEXT_PUBLIC_DATA_SOURCE
+        value: mock

@@ -1,0 +1,11 @@
+{
+  "name": "triagr-backend-scripts",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "node contract-test.mjs"
+  },
+  "dependencies": {
+    "@insforge/sdk": "^1.5.2"
+  }
+}
